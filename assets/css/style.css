@@ -1,0 +1,17 @@
+body {
+    margin: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;   
+    background-color: white;
+    display: inline-block;
+    width: auto;
+}
